@@ -21,4 +21,16 @@
 guard란 조건이 false일 때 실행되는 구문이다.  
 <pre><code>guard "조건" else </code></pre> 형식으로 사용한다.
 
-## 카카오
+#### 3. 두 수의 곱
+    import Foundation
+    
+    func solution(_ num1:Int, _ num2:Int) -> Int {
+        guard (num1 >= 0 && num1 <= 100) , (num2 >= 0 && num2 <= 100) else {
+            return 0
+        }
+        return  num1 * num2 
+    }
+    
+'guard'도 이용해보았다.  
+'guard'는 항상 else를 가지기 때문에 'return', 'breake', 'continue', 'throw'를 이용해서 exit시켜야 한다.
+
