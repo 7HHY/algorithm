@@ -35,6 +35,14 @@ guard란 조건이 false일 때 실행되는 구문이다.
 'guard'는 항상 else를 가지기 때문에 'return', 'breake', 'continue', 'throw'를 이용해서 exit시켜야 한다.
 
 #### [4. 몫 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120805)
+    import Foundation
+    
+    func solution(_ num1:Int, _ num2:Int) -> Int {
+        guard (num1 >= 0 && num1 <= 100), (num2 >= 0 && num2 <= 100) else {
+            return 0
+        }
+        return num1 / num2
+    }
 
 #### [5. 두 수의 나눗셈](https://school.programmers.co.kr/learn/courses/30/lessons/120806)
 
