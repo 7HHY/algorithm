@@ -47,8 +47,10 @@ guard란 조건이 false일 때 실행되는 구문이다.
 #### [5. 두 수의 나눗셈](https://school.programmers.co.kr/learn/courses/30/lessons/120806)
 연산 후 결과값의 정수 부분만 return하는 문제이다.  
 int로 받은 상수를 double로 연산을 진행한 후 다시 int로 형변환을 하여 return해주면 된다.
-형변환은     원하는 타입(변수)    
-로 해주면 된다.
+- 형변환 방법
+````
+원하는 타입(변수)
+````
 
 #### [6.숫자 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/120807)
 
