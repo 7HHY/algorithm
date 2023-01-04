@@ -51,6 +51,16 @@ int로 받은 상수를 double로 연산을 진행한 후 다시 int로 형변�
 ````
 원하는 타입(변수)
 ````
+````
+import Foundation
+
+func solution(_ num1:Int, _ num2:Int) -> Int {
+    guard (num1 >= 0 && num1 <= 100), (num2 >= 0 && num2 <= 100) else {
+        return 0
+    }
+    return Int((Double(num1) / Double(num2)) * 1000)
+}
+````
 
 #### [6.숫자 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/120807)
 
