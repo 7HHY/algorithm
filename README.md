@@ -61,10 +61,6 @@ func solution(_ num1:Int, _ num2:Int) -> Int {
     return Int((Double(num1) / Double(num2)) * 1000)
 }
 ````
-
-#### [6.숫자 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/120807)
-
-#### [7. 분수의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/120808)
-
-#### [8. 배열 두 배 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/120809)
-
+-----------------------------------------------------------------------------------------------------------------------------
+### PYTHON
+코드만 깃허브에 올리고 부가 설명 등은 velog에 기록
